@@ -1,9 +1,10 @@
 # EaglerProxy
 
-<a href="https://repl.it/github/WorldEditAxe/eaglerproxy"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>  
+<a href="javascript:alert("Due to Replit shutting down its free-for-all service provider, Replit is now pay-to-deploy and I, NotJunar, do not suggest you pay for it. Instead, seek a host that is more cost-effective.)"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>  
 A standalone reimplementation of EaglercraftX's bungee plugin written in TypeScript, with plugin support.
 
-_Working for latest EaglercraftX client version as of `6/15/2023`_
+_Now with VPS support by NotJunar, CEO @ JunarMC.`_
+
 
 ## Known Issues
 
@@ -16,9 +17,7 @@ This assumes that you have [Node.js](https://nodejs.org/en) LTS or higher instal
 
 1. Clone/download this repository.
 2. Modify and configure `config.ts` to your liking.
-3. Install TypeScript and required dependencies (`npm i -g typescript` and `npm i`).
-4. Compile the TypeScript code into normal JavaScript code (`tsc`).
-5. Go into the `build` directory, and run `node index.js`.
+3. This project was initially created by NotJunar, in which serves as a fork of WorldEditAxe a.k.a q13x's EaglerProxy, to provide support and premade setup of VPS running environment, to start, just enter `chmod a+x rooted_startup.sh` to grant the startup file permission, you might need to at `sudo` before 'chmod' for it to work on certain devices. Notice I will soon create a file for restricted hosting platform like Replit.
 
 ## Plugins
 
